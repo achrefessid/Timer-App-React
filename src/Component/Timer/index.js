@@ -7,7 +7,7 @@ class Timer extends Component {
         this.state = {
             timeMs: 0
         }
-        this.part = this.start.bind(this)
+        this.start = this.start.bind(this)
         this.pause = this.pause.bind(this)
     }
     start () {
