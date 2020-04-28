@@ -31,7 +31,7 @@ pause () {
         return
     }
     clearInterval(this.state.interval)
-    this.setSate({
+    this.setState({
             interval: undefined
         })
     }
